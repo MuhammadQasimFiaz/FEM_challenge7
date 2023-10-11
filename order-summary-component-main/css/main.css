@@ -17,6 +17,9 @@ li {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .card_main .cards {
   max-width: 450px;
@@ -27,6 +30,7 @@ li {
   font-family: "Red Hat Display", sans-serif;
   padding: 25px 42px;
   text-align: center;
+  background-color: #fff;
 }
 .card_main .cards .card_data h1 {
   font-size: 30px;
@@ -99,6 +103,12 @@ li {
 }
 
 @media screen and (max-width: 575px) {
+  .card_main {
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .card_main {
     padding: 30px 15px;
   }
